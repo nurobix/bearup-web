@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bear Up — Ton allié contre les attaques de panique</title>
+  <meta name="description" content="Bear Up est une application mobile de support conversationnel IA pour les personnes souffrant d'attaques de panique. Disponible 24/7.">
+  <meta name="theme-color" content="#100c08">
+  <link rel="canonical" href="https://bearup.app/">
+  <meta property="og:title" content="Bear Up — Ton allié contre les attaques de panique">
+  <meta property="og:description" content="Un compagnon IA disponible 24/7 qui comprend les attaques de panique et t'aide à reprendre le contrôle.">
+  <meta property="og:image" content="splash-icon.png">
+  <meta property="og:url" content="https://bearup.app/">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/png" href="splash-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ═══ Navigation ═══ -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <img src="splash-icon.png" alt="Bear Up" width="36" height="36">
+        <span>Bear Up</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#features" data-i18n="nav.features">Fonctionnalités</a></li>
+        <li><a href="#personas" data-i18n="nav.personas">Personas</a></li>
+        <li><a href="#pricing" data-i18n="nav.pricing">Tarifs</a></li>
+        <li><a href="support.html" data-i18n="nav.support">Support</a></li>
+        <li>
+          <div class="lang-switch">
+            <button class="lang-btn" data-lang="fr">FR</button>
+            <button class="lang-btn" data-lang="en">EN</button>
+          </div>
+        </li>
+      </ul>
+      <button class="nav-toggle" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══ Hero ═══ -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-icon">🐻</div>
+      <h1>
+        <span data-i18n="hero.title.1">Ton allié contre les</span><br>
+        <span class="gradient-text" data-i18n="hero.title.2">attaques de panique</span>
+      </h1>
+      <p class="hero-subtitle" data-i18n="hero.subtitle">
+        Un compagnon IA disponible 24h/24 qui comprend ce que tu traverses et t'aide à reprendre le contrôle.
+      </p>
+      <div class="hero-badges">
+        <span class="badge"><span class="badge-icon">🕐</span> <span data-i18n="hero.badge.available">Disponible 24/7</span></span>
+        <span class="badge"><span class="badge-icon">💬</span> <span data-i18n="hero.badge.ai">IA conversationnelle</span></span>
+        <span class="badge"><span class="badge-icon">🛡️</span> <span data-i18n="hero.badge.safe">Garde-fous cliniques</span></span>
+      </div>
+      <div class="hero-cta">
+        <a href="#" class="store-btn">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18.71 19.5C17.88 20.74 17 21.95 15.66 21.97C14.32 22 13.89 21.18 12.37 21.18C10.84 21.18 10.37 21.95 9.1 22C7.79 22.05 6.8 20.68 5.96 19.47C4.25 16.56 2.93 11.3 4.7 7.72C5.57 5.94 7.36 4.86 9.28 4.84C10.56 4.81 11.78 5.72 12.57 5.72C13.36 5.72 14.85 4.62 16.4 4.8C17.07 4.83 18.86 5.08 19.98 6.73C19.88 6.79 17.72 8.04 17.75 10.67C17.78 13.82 20.47 14.85 20.5 14.86C20.47 14.93 20.07 16.35 19.06 17.82L18.71 19.5ZM13 3.5C13.73 2.67 14.94 2.04 15.94 2C16.07 3.17 15.6 4.35 14.9 5.19C14.21 6.04 13.07 6.7 11.95 6.61C11.8 5.46 12.36 4.26 13 3.5Z"/></svg>
+          <div class="store-btn-text">
+            <span class="store-btn-label" data-i18n="hero.store.subtitle.apple">Télécharger sur l'</span>
+            <span class="store-btn-name" data-i18n="hero.store.name.apple">App Store</span>
+          </div>
+        </a>
+        <a href="#" class="store-btn">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3.18 23.73C2.56 23.73 2 23.2 2 22.42V1.58C2 .8 2.56.27 3.18.27C3.35.27 3.53.32 3.7.42L22.08 11.14C22.58 11.42 22.83 11.74 22.83 12.1S22.58 12.78 22.08 13.06L3.7 23.58C3.53 23.68 3.35 23.73 3.18 23.73ZM4 2.93V21.07L19.83 12L4 2.93Z"/></svg>
+          <div class="store-btn-text">
+            <span class="store-btn-label" data-i18n="hero.store.subtitle.google">Disponible sur</span>
+            <span class="store-btn-name" data-i18n="hero.store.name.google">Google Play</span>
+          </div>
+        </a>
+      </div>
+
+      <!-- Chat Demo -->
+      <div class="chat-demo reveal">
+        <div class="chat-demo-header">
+          <span class="chat-demo-title" data-i18n="demo.title">L'Ami Solidaire</span>
+          <span class="chat-demo-badge" data-i18n="demo.badge">🎁 18/20</span>
+        </div>
+        <div class="chat-demo-body">
+          <div class="chat-bubble user" data-i18n="demo.user" data-i18n-html>Mon cœur bat super vite, j'ai peur que ce soit grave</div>
+          <div class="chat-bubble assistant" data-i18n="demo.assistant" data-i18n-html>Hey, je suis là 💙 Ce que tu ressens, c'est ton corps qui réagit au stress — l'adrénaline fait accélérer le cœur. C'est impressionnant, mais ce n'est pas dangereux. Ça va passer.</div>
+        </div>
+        <div class="chat-demo-buttons">
+          <span class="chat-demo-btn red" data-i18n="demo.btn.1">🆘 J'ai besoin d'aide</span>
+          <span class="chat-demo-btn orange" data-i18n="demo.btn.2">💓 Mon cœur bat vite</span>
+          <span class="chat-demo-btn blue" data-i18n="demo.btn.3">🤝 Reste avec moi</span>
+          <span class="chat-demo-btn purple" data-i18n="demo.btn.4">😖 Qu'est-ce qui m'arrive ?</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ Features ═══ -->
+  <section id="features" class="section section-alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label" data-i18n="features.label">Fonctionnalités</span>
+        <h2 data-i18n="features.title">Conçu pour les moments difficiles</h2>
+        <p data-i18n="features.subtitle">Chaque détail a été pensé pour être utilisable pendant une attaque de panique.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card reveal reveal-delay-1">
+          <div class="feature-icon blue">🕐</div>
+          <h3 data-i18n="features.1.title">Disponible 24/7</h3>
+          <p data-i18n="features.1.desc">Jour, nuit, week-end — Bear Up est toujours là quand tu en as besoin. Pas de rendez-vous, pas d'attente.</p>
+        </div>
+        <div class="feature-card reveal reveal-delay-2">
+          <div class="feature-icon red">🆘</div>
+          <h3 data-i18n="features.2.title">Boutons d'urgence</h3>
+          <p data-i18n="features.2.desc">6 boutons tactiles larges pour s'exprimer sans taper. Parfait quand les mains tremblent.</p>
+        </div>
+        <div class="feature-card reveal reveal-delay-3">
+          <div class="feature-icon purple">🔊</div>
+          <h3 data-i18n="features.3.title">Synthèse vocale</h3>
+          <p data-i18n="features.3.desc">Chaque message peut être lu à voix haute. Active la lecture automatique pour te laisser guider.</p>
+        </div>
+        <div class="feature-card reveal reveal-delay-1">
+          <div class="feature-icon orange">🛡️</div>
+          <h3 data-i18n="features.4.title">Garde-fous de sécurité</h3>
+          <p data-i18n="features.4.desc">Détection automatique des urgences médicales et redirection vers les numéros d'urgence (3114, 15).</p>
+        </div>
+        <div class="feature-card reveal reveal-delay-2">
+          <div class="feature-icon pink">🤝</div>
+          <h3 data-i18n="features.5.title">2 personas au choix</h3>
+          <p data-i18n="features.5.desc">Un ami empathique ou un assistant clinique rationnel — choisis l'approche qui te convient.</p>
+        </div>
+        <div class="feature-card reveal reveal-delay-3">
+          <div class="feature-icon green">♿</div>
+          <h3 data-i18n="features.6.title">Accessible en crise</h3>
+          <p data-i18n="features.6.desc">Gros boutons, texte lisible, contraste élevé. Conçu pour une charge cognitive réduite.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ Personas ═══ -->
+  <section id="personas" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label" data-i18n="personas.label">Personas</span>
+        <h2 data-i18n="personas.title">Deux approches, un même objectif</h2>
+        <p data-i18n="personas.subtitle">Choisis le style d'accompagnement qui te rassure le plus.</p>
+      </div>
+      <div class="personas-grid">
+        <div class="persona-card friend reveal">
+          <div class="persona-emoji">🤝</div>
+          <h3 data-i18n="personas.friend.name">L'Ami Solidaire</h3>
+          <span class="persona-badge free" data-i18n="personas.friend.badge">Gratuit</span>
+          <p data-i18n="personas.friend.desc">Un ami qui souffre lui aussi d'attaques de panique. Il te tutoie, te rassure avec des mots simples et reste à tes côtés.</p>
+          <ul class="persona-traits">
+            <li data-i18n="personas.friend.trait.1">Ton chaleureux et authentique</li>
+            <li data-i18n="personas.friend.trait.2">Phrases courtes et rassurantes</li>
+            <li data-i18n="personas.friend.trait.3">Techniques de grounding simples</li>
+            <li data-i18n="personas.friend.trait.4">Accessible à tous</li>
+          </ul>
+        </div>
+        <div class="persona-card clinical reveal">
+          <div class="persona-emoji">🧠</div>
+          <h3 data-i18n="personas.clinical.name">L'Assistant Clinique</h3>
+          <span class="persona-badge premium" data-i18n="personas.clinical.badge">Premium ✨</span>
+          <p data-i18n="personas.clinical.desc">Un accompagnateur structuré qui rassure par la science. Il explique ce qui se passe dans ton corps avec précision.</p>
+          <ul class="persona-traits">
+            <li data-i18n="personas.clinical.trait.1">Vocabulaire physiologique précis</li>
+            <li data-i18n="personas.clinical.trait.2">Approche rationnelle et posée</li>
+            <li data-i18n="personas.clinical.trait.3">Basé sur les TCC</li>
+            <li data-i18n="personas.clinical.trait.4">Exercices directifs</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ How It Works ═══ -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label" data-i18n="steps.label">Comment ça marche</span>
+        <h2 data-i18n="steps.title">Simple comme 1, 2, 3</h2>
+        <p data-i18n="steps.subtitle">Installe l'app dans un moment calme, elle sera prête quand tu en auras besoin.</p>
+      </div>
+      <div class="steps-grid">
+        <div class="step-item reveal reveal-delay-1">
+          <div class="step-number">1</div>
+          <h3 data-i18n="steps.1.title">Télécharge l'app</h3>
+          <p data-i18n="steps.1.desc">Disponible sur iOS et Android. Crée ton compte en un clic avec Apple ou Google.</p>
+        </div>
+        <div class="step-item reveal reveal-delay-2">
+          <div class="step-number">2</div>
+          <h3 data-i18n="steps.2.title">Choisis ton persona</h3>
+          <p data-i18n="steps.2.desc">Ami Solidaire ou Assistant Clinique — tu pourras changer à tout moment.</p>
+        </div>
+        <div class="step-item reveal reveal-delay-3">
+          <div class="step-number">3</div>
+          <h3 data-i18n="steps.3.title">Parle librement</h3>
+          <p data-i18n="steps.3.desc">Écris ce que tu ressens ou utilise les boutons rapides. Bear Up est là pour toi.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ Safety ═══ -->
+  <section class="section safety-section">
+    <div class="container">
+      <div class="safety-content reveal">
+        <div class="safety-icon">🛡️</div>
+        <div>
+          <h2 data-i18n="safety.title">Ta sécurité avant tout</h2>
+          <p data-i18n="safety.desc">Bear Up détecte automatiquement les situations d'urgence et te redirige vers les numéros de secours appropriés. En cas de doute, nous privilégions toujours la sécurité.</p>
+          <div class="safety-numbers">
+            <span class="safety-number" data-i18n="safety.3114">3114 — Prévention suicide</span>
+            <span class="safety-number" data-i18n="safety.15">15 — SAMU</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ Pricing ═══ -->
+  <section id="pricing" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label" data-i18n="pricing.label">Tarifs</span>
+        <h2 data-i18n="pricing.title">Commence gratuitement</h2>
+        <p data-i18n="pricing.subtitle">20 messages gratuits pour découvrir Bear Up. Passe en premium pour un accès illimité.</p>
+      </div>
+      <div class="pricing-grid">
+        <div class="pricing-card reveal">
+          <div class="pricing-name" data-i18n="pricing.free.name">Gratuit</div>
+          <div class="pricing-price" data-i18n="pricing.free.price">0€</div>
+          <div class="pricing-period" data-i18n="pricing.free.period">pour toujours</div>
+          <ul class="pricing-features">
+            <li data-i18n="pricing.free.f1">20 messages avec l'IA</li>
+            <li data-i18n="pricing.free.f2">Persona "L'Ami Solidaire"</li>
+            <li data-i18n="pricing.free.f3">Boutons de suggestion</li>
+            <li data-i18n="pricing.free.f4">Synthèse vocale</li>
+            <li data-i18n="pricing.free.f5">Réponses pré-enregistrées après quota</li>
+            <li class="disabled" data-i18n="pricing.free.f6">L'Assistant Clinique</li>
+          </ul>
+          <a href="#" class="btn btn-secondary" data-i18n="pricing.free.cta">Commencer gratuitement</a>
+        </div>
+        <div class="pricing-card featured reveal reveal-delay-1">
+          <div class="pricing-name" data-i18n="pricing.premium.name">Premium ✨</div>
+          <div class="pricing-price">—</div>
+          <div class="pricing-period" data-i18n="pricing.premium.period">/ mois</div>
+          <ul class="pricing-features">
+            <li data-i18n="pricing.premium.f1">Messages illimités avec l'IA</li>
+            <li data-i18n="pricing.premium.f2">Persona "L'Ami Solidaire"</li>
+            <li data-i18n="pricing.premium.f3">Persona "L'Assistant Clinique" 🧠</li>
+            <li data-i18n="pricing.premium.f4">Boutons de suggestion</li>
+            <li data-i18n="pricing.premium.f5">Synthèse vocale</li>
+            <li data-i18n="pricing.premium.f6">Accès à toutes les fonctionnalités futures</li>
+          </ul>
+          <a href="#" class="btn btn-primary" data-i18n="pricing.premium.cta">Passer Premium</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ CTA ═══ -->
+  <section class="section section-alt cta-section">
+    <div class="container">
+      <div class="cta-content reveal">
+        <div style="font-size: 3rem; margin-bottom: 1rem;">🐻</div>
+        <h2>
+          <span data-i18n="cta.title.1">Prêt à reprendre le</span>
+          <span class="gradient-text" data-i18n="cta.title.2">contrôle</span> ?
+        </h2>
+        <p data-i18n="cta.subtitle">Télécharge Bear Up et découvre un compagnon qui comprend les attaques de panique.</p>
+        <div class="cta-stores">
+          <a href="#" class="store-btn">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18.71 19.5C17.88 20.74 17 21.95 15.66 21.97C14.32 22 13.89 21.18 12.37 21.18C10.84 21.18 10.37 21.95 9.1 22C7.79 22.05 6.8 20.68 5.96 19.47C4.25 16.56 2.93 11.3 4.7 7.72C5.57 5.94 7.36 4.86 9.28 4.84C10.56 4.81 11.78 5.72 12.57 5.72C13.36 5.72 14.85 4.62 16.4 4.8C17.07 4.83 18.86 5.08 19.98 6.73C19.88 6.79 17.72 8.04 17.75 10.67C17.78 13.82 20.47 14.85 20.5 14.86C20.47 14.93 20.07 16.35 19.06 17.82L18.71 19.5ZM13 3.5C13.73 2.67 14.94 2.04 15.94 2C16.07 3.17 15.6 4.35 14.9 5.19C14.21 6.04 13.07 6.7 11.95 6.61C11.8 5.46 12.36 4.26 13 3.5Z"/></svg>
+            <div class="store-btn-text">
+              <span class="store-btn-label" data-i18n="hero.store.subtitle.apple">Télécharger sur l'</span>
+              <span class="store-btn-name" data-i18n="hero.store.name.apple">App Store</span>
+            </div>
+          </a>
+          <a href="#" class="store-btn">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3.18 23.73C2.56 23.73 2 23.2 2 22.42V1.58C2 .8 2.56.27 3.18.27C3.35.27 3.53.32 3.7.42L22.08 11.14C22.58 11.42 22.83 11.74 22.83 12.1S22.58 12.78 22.08 13.06L3.7 23.58C3.53 23.68 3.35 23.73 3.18 23.73ZM4 2.93V21.07L19.83 12L4 2.93Z"/></svg>
+            <div class="store-btn-text">
+              <span class="store-btn-label" data-i18n="hero.store.subtitle.google">Disponible sur</span>
+              <span class="store-btn-name" data-i18n="hero.store.name.google">Google Play</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ Footer ═══ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo">
+            <img src="splash-icon.png" alt="Bear Up" width="36" height="36">
+            <span>Bear Up</span>
+          </a>
+          <p data-i18n="footer.desc">Un compagnon IA pour les personnes souffrant d'attaques de panique. Disponible 24/7.</p>
+        </div>
+        <div>
+          <div class="footer-title" data-i18n="footer.legal">Légal</div>
+          <ul class="footer-links">
+            <li><a href="privacy.html" data-i18n="nav.privacy">Confidentialité</a></li>
+            <li><a href="terms.html" data-i18n="nav.terms">CGU</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-title" data-i18n="footer.resources">Ressources</div>
+          <ul class="footer-links">
+            <li><a href="support.html" data-i18n="nav.support">Support</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p data-i18n="footer.copyright">© 2026 Nurobix. Tous droits réservés.</p>
+        <p data-i18n="footer.not-medical">Bear Up ne remplace pas un professionnel de santé.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
