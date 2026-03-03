@@ -36,9 +36,11 @@ const translations = {
     en: "Hey, I'm here 💙 What you're feeling is your body reacting to stress — adrenaline speeds up the heart. It feels intense, but it's not dangerous. It will pass."
   },
   "demo.btn.1": { fr: "🆘 J'ai besoin d'aide", en: "🆘 I need help now" },
-  "demo.btn.2": { fr: "💓 Mon cœur bat vite", en: "💓 My heart is racing" },
-  "demo.btn.3": { fr: "🤝 Reste avec moi", en: "🤝 Stay with me" },
-  "demo.btn.4": { fr: "😖 Qu'est-ce qui m'arrive ?", en: "😖 What's happening to me?" },
+  "demo.btn.2": { fr: "💔 Je crois que je vais mourir", en: "💔 I think I'm going to die" },
+  "demo.btn.3": { fr: "💓 Mon cœur bat trop vite", en: "💓 My heart is racing" },
+  "demo.btn.4": { fr: "😰 Je n'arrive pas à respirer", en: "😰 I can't breathe" },
+  "demo.btn.5": { fr: "🤝 Reste avec moi", en: "🤝 Stay with me" },
+  "demo.btn.6": { fr: "😖 Qu'est-ce qui m'arrive ?", en: "😖 What's happening to me?" },
 
   // ── Features ──
   "features.label": { fr: "Fonctionnalités", en: "Features" },
@@ -52,10 +54,10 @@ const translations = {
     fr: "Jour, nuit, week-end — Bear Up est toujours là quand tu en as besoin. Pas de rendez-vous, pas d'attente.",
     en: "Day, night, weekends — Bear Up is always there when you need it. No appointments, no waiting."
   },
-  "features.2.title": { fr: "Boutons d'urgence", en: "Quick-action buttons" },
+  "features.2.title": { fr: "Boutons personnalisables", en: "Customizable buttons" },
   "features.2.desc": {
-    fr: "6 boutons tactiles larges pour s'exprimer sans taper. Parfait quand les mains tremblent.",
-    en: "6 large touch buttons to express yourself without typing. Perfect when your hands are shaking."
+    fr: "6 boutons tactiles larges pour s'exprimer sans taper. Personnalise les emojis, messages et couleurs.",
+    en: "6 large touch buttons to express yourself without typing. Customize emojis, messages and colors."
   },
   "features.3.title": { fr: "Synthèse vocale", en: "Voice synthesis" },
   "features.3.desc": {
@@ -69,13 +71,13 @@ const translations = {
   },
   "features.5.title": { fr: "2 personas au choix", en: "2 personas to choose" },
   "features.5.desc": {
-    fr: "Un ami empathique ou un assistant clinique rationnel — choisis l'approche qui te convient.",
-    en: "An empathetic friend or a rational clinical assistant — choose the approach that suits you."
+    fr: "Un ami empathique ou un assistant clinique rationnel. Ajoute tes instructions personnalisées en premium.",
+    en: "An empathetic friend or a rational clinical assistant. Add your custom instructions with premium."
   },
-  "features.6.title": { fr: "Accessible en crise", en: "Crisis-accessible" },
+  "features.6.title": { fr: "Suivi post-crise", en: "Post-crisis follow-up" },
   "features.6.desc": {
-    fr: "Gros boutons, texte lisible, contraste élevé. Conçu pour une charge cognitive réduite.",
-    en: "Large buttons, readable text, high contrast. Designed for reduced cognitive load."
+    fr: "15 minutes après ta conversation, Bear Up prend de tes nouvelles avec une notification personnalisée.",
+    en: "15 minutes after your conversation, Bear Up checks in on you with a personalized notification."
   },
 
   // ── Personas ──
@@ -150,19 +152,23 @@ const translations = {
   "pricing.free.period": { fr: "pour toujours", en: "forever" },
   "pricing.free.f1": { fr: "20 messages avec l'IA", en: "20 AI messages" },
   "pricing.free.f2": { fr: "Persona \"L'Ami Solidaire\"", en: "\"Supportive Friend\" persona" },
-  "pricing.free.f3": { fr: "Boutons de suggestion", en: "Quick-action buttons" },
+  "pricing.free.f3": { fr: "Boutons personnalisables", en: "Customizable buttons" },
   "pricing.free.f4": { fr: "Synthèse vocale", en: "Voice synthesis" },
-  "pricing.free.f5": { fr: "Réponses pré-enregistrées après quota", en: "Pre-recorded responses after quota" },
-  "pricing.free.f6": { fr: "L'Assistant Clinique", en: "The Clinical Assistant" },
+  "pricing.free.f5": { fr: "Notification post-crise", en: "Post-crisis notification" },
+  "pricing.free.f6": { fr: "Réponses pré-enregistrées après quota", en: "Pre-recorded responses after quota" },
+  "pricing.free.f7": { fr: "L'Assistant Clinique", en: "The Clinical Assistant" },
+  "pricing.free.f8": { fr: "Instructions personnalisées", en: "Custom instructions" },
   "pricing.free.cta": { fr: "Commencer gratuitement", en: "Get started free" },
   "pricing.premium.name": { fr: "Premium ✨", en: "Premium ✨" },
   "pricing.premium.period": { fr: "/ mois", en: "/ month" },
   "pricing.premium.f1": { fr: "Messages illimités avec l'IA", en: "Unlimited AI messages" },
   "pricing.premium.f2": { fr: "Persona \"L'Ami Solidaire\"", en: "\"Supportive Friend\" persona" },
   "pricing.premium.f3": { fr: "Persona \"L'Assistant Clinique\" 🧠", en: "\"Clinical Assistant\" persona 🧠" },
-  "pricing.premium.f4": { fr: "Boutons de suggestion", en: "Quick-action buttons" },
+  "pricing.premium.f4": { fr: "Boutons personnalisables", en: "Customizable buttons" },
   "pricing.premium.f5": { fr: "Synthèse vocale", en: "Voice synthesis" },
-  "pricing.premium.f6": { fr: "Accès à toutes les fonctionnalités futures", en: "Access to all future features" },
+  "pricing.premium.f6": { fr: "Instructions personnalisées 🎯", en: "Custom instructions 🎯" },
+  "pricing.premium.f7": { fr: "Notification post-crise", en: "Post-crisis notification" },
+  "pricing.premium.f8": { fr: "Accès aux fonctionnalités futures", en: "Access to future features" },
   "pricing.premium.cta": { fr: "Passer Premium", en: "Go Premium" },
 
   // ── CTA ──
@@ -256,8 +262,8 @@ const translations = {
   },
   "privacy.h2.5": { fr: "5. Conservation des données", en: "5. Data Retention" },
   "privacy.p.5": {
-    fr: "Vos données de compte sont conservées tant que votre compte est actif. Les conversations sont stockées localement sur votre appareil et peuvent être effacées à tout moment en utilisant la fonction de nouvelle conversation. Vous pouvez demander la suppression de votre compte et de toutes les données associées en nous contactant.",
-    en: "Your account data is retained as long as your account is active. Conversations are stored locally on your device and can be cleared at any time using the new conversation feature. You can request deletion of your account and all associated data by contacting us."
+    fr: "Vos données de compte sont conservées tant que votre compte est actif. Les conversations sont stockées localement sur votre appareil et peuvent être effacées à tout moment en utilisant la fonction de nouvelle conversation. Vous pouvez supprimer votre compte directement depuis l'application (Paramètres > Mon compte > Supprimer mon compte) ou via notre <a href=\"https://forms.gle/53ep82836j8of8sRA\" target=\"_blank\" rel=\"noopener\">formulaire de demande de suppression</a>.",
+    en: "Your account data is retained as long as your account is active. Conversations are stored locally on your device and can be cleared at any time using the new conversation feature. You can delete your account directly from the app (Settings > My account > Delete my account) or via our <a href=\"https://forms.gle/53ep82836j8of8sRA\" target=\"_blank\" rel=\"noopener\">data deletion request form</a>."
   },
   "privacy.h2.6": { fr: "6. Droits des utilisateurs", en: "6. User Rights" },
   "privacy.p.6": {
@@ -356,8 +362,8 @@ const translations = {
   },
   "terms.h2.10": { fr: "10. Résiliation", en: "10. Termination" },
   "terms.p.10": {
-    fr: "Nous nous réservons le droit de suspendre ou de résilier votre accès à l'application à tout moment, avec ou sans motif. Vous pouvez résilier votre compte en vous déconnectant et en nous contactant pour demander la suppression de vos données.",
-    en: "We reserve the right to suspend or terminate your access to the application at any time, with or without cause. You may terminate your account by logging out and contacting us to request deletion of your data."
+    fr: "Nous nous réservons le droit de suspendre ou de résilier votre accès à l'application à tout moment, avec ou sans motif. Vous pouvez supprimer votre compte directement depuis l'application (Paramètres > Mon compte > Supprimer mon compte) ou via notre <a href=\"https://forms.gle/53ep82836j8of8sRA\" target=\"_blank\" rel=\"noopener\">formulaire en ligne</a>. La suppression est irréversible et entraîne l'effacement de toutes vos données.",
+    en: "We reserve the right to suspend or terminate your access to the application at any time, with or without cause. You can delete your account directly from the app (Settings > My account > Delete my account) or via our <a href=\"https://forms.gle/53ep82836j8of8sRA\" target=\"_blank\" rel=\"noopener\">online form</a>. Deletion is irreversible and results in the erasure of all your data."
   },
   "terms.h2.11": { fr: "11. Droit applicable", en: "11. Governing Law" },
   "terms.p.11": {
@@ -518,6 +524,32 @@ const translations = {
   "faq.safety.a3": {
     fr: "Nous collectons uniquement les données nécessaires au fonctionnement : ton adresse e-mail et fournisseur de connexion (Apple/Google), un identifiant anonyme d'appareil pour le quota, et ton statut d'abonnement. Pour plus de détails, consulte notre <a href=\"privacy.html\">Politique de confidentialité</a>.",
     en: "We only collect data necessary for operation: your email address and login provider (Apple/Google), an anonymous device identifier for quota tracking, and your subscription status. For more details, see our <a href=\"privacy.html\">Privacy Policy</a>."
+  },
+
+  // Personalisation
+  "faq.cat.custom": { fr: "Personnalisation", en: "Customization" },
+  "faq.custom.q1": { fr: "Comment personnaliser mes boutons rapides ?", en: "How do I customize my quick buttons?" },
+  "faq.custom.a1": {
+    fr: "Va dans les paramètres (⚙️) puis clique sur \"Personnaliser mes boutons rapides\". Tu peux modifier l'emoji, le label, le message envoyé et la couleur de chaque bouton. Tu peux aussi choisir d'afficher entre 2 et 6 boutons selon tes besoins.",
+    en: "Go to settings (⚙️) then tap \"Customize my quick buttons\". You can change the emoji, label, sent message and color of each button. You can also choose to display between 2 and 6 buttons based on your needs."
+  },
+  "faq.custom.q2": { fr: "Que sont les instructions personnalisées ?", en: "What are custom instructions?" },
+  "faq.custom.a2": {
+    fr: "Les instructions personnalisées (fonctionnalité premium) te permettent de donner des consignes à l'assistant IA. Par exemple, tu peux lui demander de t'appeler par ton prénom ou de privilégier certaines techniques de respiration. Accède à cette option dans les paramètres (⚙️) > Mon accompagnement.",
+    en: "Custom instructions (premium feature) let you give directives to the AI assistant. For example, you can ask it to call you by your first name or to favor certain breathing techniques. Access this option in settings (⚙️) > My support."
+  },
+  "faq.custom.q3": { fr: "Qu'est-ce que la notification post-crise ?", en: "What is the post-crisis notification?" },
+  "faq.custom.a3": {
+    fr: "Si tu actives l'option \"Demander de mes nouvelles post-crise\" dans les paramètres (⚙️ > Expérience & secours), Bear Up t'enverra une notification 15 minutes après ton dernier échange pour prendre de tes nouvelles. Le message s'adapte au persona que tu utilises.",
+    en: "If you enable the \"Check in on me post-crisis\" option in settings (⚙️ > Experience & safety), Bear Up will send you a notification 15 minutes after your last exchange to check in on you. The message adapts to the persona you're using."
+  },
+
+  // Account
+  "faq.cat.account": { fr: "Compte", en: "Account" },
+  "faq.account.q1": { fr: "Comment supprimer mon compte ?", en: "How do I delete my account?" },
+  "faq.account.a1": {
+    fr: "Tu peux supprimer ton compte directement depuis l'application : va dans les paramètres (⚙️) > Mon compte > \"Supprimer mon compte\". Cette action est irréversible et supprime définitivement toutes tes données. Tu peux aussi faire une demande via notre <a href=\"https://forms.gle/53ep82836j8of8sRA\" target=\"_blank\" rel=\"noopener\">formulaire en ligne</a>.",
+    en: "You can delete your account directly from the app: go to settings (⚙️) > My account > \"Delete my account\". This action is irreversible and permanently deletes all your data. You can also submit a request via our <a href=\"https://forms.gle/53ep82836j8of8sRA\" target=\"_blank\" rel=\"noopener\">online form</a>."
   },
 
   // Technical
