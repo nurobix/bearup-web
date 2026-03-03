@@ -269,6 +269,10 @@ const translations = {
   "privacy.li.6c": { fr: "Droit à l'effacement (\"droit à l'oubli\")", en: "Right to erasure (\"right to be forgotten\")" },
   "privacy.li.6d": { fr: "Droit à la portabilité de vos données", en: "Right to data portability" },
   "privacy.li.6e": { fr: "Droit d'opposition au traitement", en: "Right to object to processing" },
+  "privacy.p.6b": {
+    fr: "Pour exercer votre droit à l'effacement et demander la suppression de vos données, vous pouvez remplir notre <a href=\"https://forms.gle/53ep82836j8of8sRA\" target=\"_blank\" rel=\"noopener\">formulaire de demande de suppression</a>.",
+    en: "To exercise your right to erasure and request the deletion of your data, you can fill out our <a href=\"https://forms.gle/53ep82836j8of8sRA\" target=\"_blank\" rel=\"noopener\">data deletion request form</a>."
+  },
   "privacy.h2.7": { fr: "7. Protection des mineurs", en: "7. Children's Privacy" },
   "privacy.p.7": {
     fr: "Bear Up n'est pas destiné aux enfants de moins de 16 ans. Nous ne collectons pas sciemment d'informations personnelles auprès de mineurs. Si vous êtes parent et pensez que votre enfant nous a fourni des informations personnelles, contactez-nous pour que nous les supprimions.",
