@@ -10,6 +10,7 @@ const translations = {
   "nav.support": { fr: "Support", en: "Support" },
   "nav.privacy": { fr: "Confidentialité", en: "Privacy" },
   "nav.terms": { fr: "CGU", en: "Terms" },
+  "nav.disclaimer": { fr: "Disclaimer", en: "Disclaimer" },
 
   // ── Hero ──
   "hero.title.1": { fr: "Ton allié contre les", en: "Your ally against" },
@@ -368,6 +369,45 @@ const translations = {
   "terms.p.13": {
     fr: "Pour toute question relative à ces conditions, contactez-nous à :",
     en: "For any questions regarding these terms, contact us at:"
+  },
+
+  // ══════════════════════════════════════
+  // ── Disclaimer ──
+  // ══════════════════════════════════════
+  "disclaimer.title": { fr: "Avertissement Légal et Conditions d'Utilisation", en: "Legal Disclaimer and Terms of Use" },
+  "disclaimer.date": { fr: "Dernière mise à jour : 3 mars 2026", en: "Last updated: March 3, 2026" },
+  "disclaimer.h2.1": { fr: "1. Absence de conseil médical", en: "1. No Medical Advice" },
+  "disclaimer.p.1": {
+    fr: "Bear Up est un outil de support conversationnel animé par une intelligence artificielle (\"L'Ami Solidaire\") conçu pour accompagner les personnes en crise d'attaque de panique. Cette application ne constitue pas un dispositif médical et ne délivre aucun diagnostic, avis médical ou traitement.",
+    en: "Bear Up is a conversational support tool powered by artificial intelligence (\"The Supportive Friend\") designed to assist people experiencing panic attacks. This application is not a medical device and does not provide any diagnosis, medical advice, or treatment."
+  },
+  "disclaimer.h2.2": { fr: "2. Prérequis à l'utilisation", en: "2. Prerequisites for Use" },
+  "disclaimer.p.2": {
+    fr: "L'utilisation de cette application est strictement réservée aux personnes ayant préalablement reçu un diagnostic médical formel d'attaques de panique ou de trouble panique par un professionnel de santé qualifié (médecin, psychiatre). Vous ne devez pas utiliser Bear Up pour auto-diagnostiquer des symptômes physiques nouveaux ou inconnus.",
+    en: "Use of this application is strictly reserved for individuals who have previously received a formal medical diagnosis of panic attacks or panic disorder from a qualified healthcare professional (doctor, psychiatrist). You must not use Bear Up to self-diagnose new or unknown physical symptoms."
+  },
+  "disclaimer.h2.3": { fr: "3. Limites de l'IA et Urgences", en: "3. AI Limitations and Emergencies" },
+  "disclaimer.p.3a": {
+    fr: "Bien que l'application dispose de verrous de sécurité (Safety Guardrails) pour détecter les urgences, vous reconnaissez que :",
+    en: "Although the application has Safety Guardrails to detect emergencies, you acknowledge that:"
+  },
+  "disclaimer.li.3a": {
+    fr: "L'IA peut parfois générer des réponses imprécises malgré notre protocole de test.",
+    en: "The AI may sometimes generate inaccurate responses despite our testing protocol."
+  },
+  "disclaimer.li.3b": {
+    fr: "En cas de douleurs thoraciques persistantes, de symptômes neurologiques (paralysie, troubles de la parole) ou de pensées suicidaires, vous devez immédiatement contacter les services d'urgence : le <strong>15</strong> (SAMU) ou le <strong>3114</strong> (Prévention Suicide).",
+    en: "In case of persistent chest pain, neurological symptoms (paralysis, speech disorders) or suicidal thoughts, you must immediately contact emergency services: <strong>15</strong> (SAMU) or <strong>3114</strong> (Suicide Prevention)."
+  },
+  "disclaimer.h2.4": { fr: "4. Nature du service", en: "4. Nature of the Service" },
+  "disclaimer.p.4": {
+    fr: "Bear Up propose un soutien de type \"pair-à-pair\" (ami virtuel). Il ne remplace en aucun cas un suivi psychothérapeutique ou un traitement médicamenteux prescrit par un professionnel.",
+    en: "Bear Up offers \"peer-to-peer\" support (virtual friend). It does not in any way replace psychotherapeutic follow-up or medication prescribed by a professional."
+  },
+  "disclaimer.h2.5": { fr: "5. Responsabilité", en: "5. Liability" },
+  "disclaimer.p.5": {
+    fr: "L'utilisateur est seul responsable de l'interprétation des conseils de grounding ou de respiration proposés. L'éditeur de Bear Up ne saurait être tenu responsable d'une utilisation de l'application en dehors du cadre du soutien aux attaques de panique diagnostiquées.",
+    en: "The user is solely responsible for the interpretation of grounding or breathing advice provided. The publisher of Bear Up cannot be held liable for any use of the application outside the scope of support for diagnosed panic attacks."
   },
 
   // ══════════════════════════════════════
