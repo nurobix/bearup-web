@@ -29,7 +29,7 @@ const translations = {
 
   // ── Chat Demo ──
   "demo.title": { fr: "L'Ami Solidaire", en: "The Supportive Friend" },
-  "demo.badge": { fr: "🎁 18/20", en: "🎁 18/20" },
+  "demo.badge": { fr: "🎁 18/30", en: "🎁 18/30" },
   "demo.user": { fr: "Mon cœur bat super vite, j'ai peur que ce soit grave", en: "My heart is beating really fast, I'm scared it might be serious" },
   "demo.assistant": {
     fr: "Hey, je suis là 💙 Ce que tu ressens, c'est ton corps qui réagit au stress — l'adrénaline fait accélérer le cœur. C'est impressionnant, mais ce n'est pas dangereux. Ça va passer.",
@@ -144,13 +144,13 @@ const translations = {
   "pricing.label": { fr: "Tarifs", en: "Pricing" },
   "pricing.title": { fr: "Commence gratuitement", en: "Start for free" },
   "pricing.subtitle": {
-    fr: "20 messages gratuits pour découvrir Bear Up. Passe en premium pour un accès illimité.",
-    en: "20 free messages to discover Bear Up. Go premium for unlimited access."
+    fr: "30 messages gratuits pour découvrir Bear Up. Passe en premium pour un accès illimité.",
+    en: "30 free messages to discover Bear Up. Go premium for unlimited access."
   },
   "pricing.free.name": { fr: "Gratuit", en: "Free" },
   "pricing.free.price": { fr: "0€", en: "€0" },
   "pricing.free.period": { fr: "pour toujours", en: "forever" },
-  "pricing.free.f1": { fr: "20 messages avec l'IA", en: "20 AI messages" },
+  "pricing.free.f1": { fr: "30 messages avec l'IA", en: "30 AI messages" },
   "pricing.free.f2": { fr: "Persona \"L'Ami Solidaire\"", en: "\"Supportive Friend\" persona" },
   "pricing.free.f3": { fr: "Boutons personnalisables", en: "Customizable buttons" },
   "pricing.free.f4": { fr: "Synthèse vocale", en: "Voice synthesis" },
@@ -331,8 +331,8 @@ const translations = {
   "terms.h2.5": { fr: "5. Offre gratuite et abonnement premium", en: "5. Free Tier and Premium Subscription" },
   "terms.h3.5a": { fr: "5.1 Offre gratuite", en: "5.1 Free Tier" },
   "terms.p.5a": {
-    fr: "Chaque appareil dispose de 20 messages gratuits avec l'assistant IA. Ce quota est lié à l'appareil et ne peut être réinitialisé en créant un nouveau compte. Une fois le quota épuisé, des réponses pré-enregistrées restent disponibles via les boutons de suggestion.",
-    en: "Each device has 20 free messages with the AI assistant. This quota is linked to the device and cannot be reset by creating a new account. Once the quota is exhausted, pre-recorded responses remain available via suggestion buttons."
+    fr: "Chaque appareil dispose de 30 messages gratuits avec l'assistant IA. Ce quota est lié à l'appareil et ne peut être réinitialisé en créant un nouveau compte. Une fois le quota épuisé, des réponses pré-enregistrées restent disponibles via les boutons de suggestion.",
+    en: "Each device has 30 free messages with the AI assistant. This quota is linked to the device and cannot be reset by creating a new account. Once the quota is exhausted, pre-recorded responses remain available via suggestion buttons."
   },
   "terms.h3.5b": { fr: "5.2 Abonnement premium", en: "5.2 Premium Subscription" },
   "terms.p.5b": {
@@ -489,13 +489,13 @@ const translations = {
   "faq.cat.premium": { fr: "Abonnement Premium", en: "Premium Subscription" },
   "faq.premium.q1": { fr: "Combien de messages gratuits ai-je ?", en: "How many free messages do I get?" },
   "faq.premium.a1": {
-    fr: "Tu disposes de 20 messages gratuits avec l'assistant IA. Ce quota est lié à ton appareil (pas à ton compte). Après avoir utilisé les 20 messages, tu pourras toujours utiliser les boutons de suggestion pour recevoir des réponses pré-enregistrées (techniques de respiration, grounding, etc.).",
-    en: "You get 20 free messages with the AI assistant. This quota is linked to your device (not your account). After using all 20 messages, you can still use the suggestion buttons to receive pre-recorded responses (breathing techniques, grounding, etc.)."
+    fr: "Tu disposes de 30 messages gratuits avec l'assistant IA. Ce quota est lié à ton appareil (pas à ton compte). Après avoir utilisé les 30 messages, tu pourras toujours utiliser les boutons de suggestion pour recevoir des réponses pré-enregistrées (techniques de respiration, grounding, etc.).",
+    en: "You get 30 free messages with the AI assistant. This quota is linked to your device (not your account). After using all 30 messages, you can still use the suggestion buttons to receive pre-recorded responses (breathing techniques, grounding, etc.)."
   },
   "faq.premium.q2": { fr: "Que comprend l'abonnement premium ?", en: "What does the premium subscription include?" },
   "faq.premium.a2": {
-    fr: "L'abonnement premium te donne un accès illimité aux messages avec l'assistant IA (plus de limite de 20 messages) et débloque le persona \"L'Assistant Clinique\" 🧠. Tu bénéficies également de toutes les futures fonctionnalités en avant-première.",
-    en: "The premium subscription gives you unlimited access to AI messages (no more 20-message limit) and unlocks \"The Clinical Assistant\" persona 🧠. You also get early access to all future features."
+    fr: "L'abonnement premium te donne un accès illimité aux messages avec l'assistant IA (plus de limite de 30 messages) et débloque le persona \"L'Assistant Clinique\" 🧠. Tu bénéficies également de toutes les futures fonctionnalités en avant-première.",
+    en: "The premium subscription gives you unlimited access to AI messages (no more 30-message limit) and unlocks \"The Clinical Assistant\" persona 🧠. You also get early access to all future features."
   },
   "faq.premium.q3": { fr: "Comment restaurer mes achats ?", en: "How do I restore my purchases?" },
   "faq.premium.a3": {
