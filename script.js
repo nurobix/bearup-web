@@ -196,7 +196,7 @@ const translations = {
   // ── Privacy Policy ──
   // ══════════════════════════════════════
   "privacy.title": { fr: "Politique de confidentialité", en: "Privacy Policy" },
-  "privacy.date": { fr: "Dernière mise à jour : 3 mars 2026", en: "Last updated: March 3, 2026" },
+  "privacy.date": { fr: "Dernière mise à jour : 5 mars 2026", en: "Last updated: March 5, 2026" },
   "privacy.intro": {
     fr: "Nurobix (\"nous\", \"notre\") exploite l'application mobile Bear Up. Cette politique de confidentialité décrit comment nous collectons, utilisons et protégeons vos informations personnelles lorsque vous utilisez notre application.",
     en: "Nurobix (\"we\", \"our\", \"us\") operates the Bear Up mobile application. This privacy policy describes how we collect, use, and protect your personal information when you use our application."
@@ -252,45 +252,58 @@ const translations = {
     en: "<strong>Apple / Google</strong> — Authentication services (Sign-In with Apple, Google Sign-In)"
   },
   "privacy.li.3d": {
-    fr: "<strong>OpenAI</strong> — Traitement des messages par intelligence artificielle. Les messages sont envoyés aux API d'OpenAI pour générer des réponses. <a href=\"https://openai.com/privacy\" target=\"_blank\" rel=\"noopener\">Politique de confidentialité d'OpenAI</a>",
-    en: "<strong>OpenAI</strong> — AI message processing. Messages are sent to OpenAI APIs to generate responses. <a href=\"https://openai.com/privacy\" target=\"_blank\" rel=\"noopener\">OpenAI Privacy Policy</a>"
+    fr: "<strong>OpenRouter / Google Gemini</strong> — Routage et traitement des messages par intelligence artificielle. Les messages sont transmis via OpenRouter à l'API Google Gemini pour générer des réponses. <a href=\"https://openrouter.ai/privacy\" target=\"_blank\" rel=\"noopener\">Politique de confidentialité d'OpenRouter</a> · <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Politique de confidentialité de Google</a>",
+    en: "<strong>OpenRouter / Google Gemini</strong> — AI message routing and processing. Messages are routed through OpenRouter to the Google Gemini API to generate responses. <a href=\"https://openrouter.ai/privacy\" target=\"_blank\" rel=\"noopener\">OpenRouter Privacy Policy</a> · <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google Privacy Policy</a>"
   },
-  "privacy.h2.4": { fr: "4. Sécurité des données", en: "4. Data Security" },
-  "privacy.p.4": {
+  "privacy.h2.4": { fr: "4. Traitement par intelligence artificielle", en: "4. Artificial Intelligence Processing" },
+  "privacy.p.4a": {
+    fr: "Lorsque vous utilisez la fonction de conversation de Bear Up, vos messages sont transmis à un service d'intelligence artificielle tiers (Google Gemini, via le service de routage OpenRouter) afin de générer une réponse adaptée.",
+    en: "When you use Bear Up's conversation feature, your messages are transmitted to a third-party artificial intelligence service (Google Gemini, via the OpenRouter routing service) in order to generate an appropriate response."
+  },
+  "privacy.p.4b": {
+    fr: "Les données transmises sont anonymisées : aucune information permettant de vous identifier personnellement (nom, e-mail, identifiant de compte) n'est envoyée au fournisseur d'IA. Les données sont utilisées exclusivement pour générer la réponse à votre message et ne sont pas conservées par le fournisseur au-delà du traitement immédiat.",
+    en: "The transmitted data is anonymized: no personally identifiable information (name, email, account ID) is sent to the AI provider. The data is used exclusively to generate the response to your message and is not retained by the provider beyond immediate processing."
+  },
+  "privacy.p.4c": {
+    fr: "En acceptant les conditions d'utilisation via la case de validation affichée au premier lancement de l'application, vous consentez expressément à ce transfert de données vers ces services tiers aux fins décrites ci-dessus.",
+    en: "By accepting the terms of use via the checkbox displayed at the first launch of the application, you expressly consent to this data transfer to these third-party services for the purposes described above."
+  },
+  "privacy.h2.5": { fr: "5. Sécurité des données", en: "5. Data Security" },
+  "privacy.p.5": {
     fr: "Nous mettons en œuvre des mesures de sécurité appropriées pour protéger vos informations personnelles, notamment le chiffrement des données en transit (HTTPS/TLS) et l'authentification sécurisée via des fournisseurs d'identité reconnus. L'accès à la base de données est protégé par des politiques de sécurité au niveau des lignes (Row Level Security).",
     en: "We implement appropriate security measures to protect your personal information, including encryption of data in transit (HTTPS/TLS) and secure authentication through recognized identity providers. Database access is protected by Row Level Security policies."
   },
-  "privacy.h2.5": { fr: "5. Conservation des données", en: "5. Data Retention" },
-  "privacy.p.5": {
+  "privacy.h2.6": { fr: "6. Conservation des données", en: "6. Data Retention" },
+  "privacy.p.6": {
     fr: "Vos données de compte sont conservées tant que votre compte est actif. Les conversations sont stockées localement sur votre appareil et peuvent être effacées à tout moment en utilisant la fonction de nouvelle conversation. Vous pouvez supprimer votre compte directement depuis l'application (Paramètres > Mon compte > Supprimer mon compte) ou via notre <a href=\"https://forms.gle/53ep82836j8of8sRA\" target=\"_blank\" rel=\"noopener\">formulaire de demande de suppression</a>.",
     en: "Your account data is retained as long as your account is active. Conversations are stored locally on your device and can be cleared at any time using the new conversation feature. You can delete your account directly from the app (Settings > My account > Delete my account) or via our <a href=\"https://forms.gle/53ep82836j8of8sRA\" target=\"_blank\" rel=\"noopener\">data deletion request form</a>."
   },
-  "privacy.h2.6": { fr: "6. Droits des utilisateurs", en: "6. User Rights" },
-  "privacy.p.6": {
+  "privacy.h2.7": { fr: "7. Droits des utilisateurs", en: "7. User Rights" },
+  "privacy.p.7": {
     fr: "Conformément au RGPD et aux réglementations applicables, vous disposez des droits suivants :",
     en: "In accordance with GDPR and applicable regulations, you have the following rights:"
   },
-  "privacy.li.6a": { fr: "Droit d'accès à vos données personnelles", en: "Right to access your personal data" },
-  "privacy.li.6b": { fr: "Droit de rectification de vos données", en: "Right to rectify your data" },
-  "privacy.li.6c": { fr: "Droit à l'effacement (\"droit à l'oubli\")", en: "Right to erasure (\"right to be forgotten\")" },
-  "privacy.li.6d": { fr: "Droit à la portabilité de vos données", en: "Right to data portability" },
-  "privacy.li.6e": { fr: "Droit d'opposition au traitement", en: "Right to object to processing" },
-  "privacy.p.6b": {
+  "privacy.li.7a": { fr: "Droit d'accès à vos données personnelles", en: "Right to access your personal data" },
+  "privacy.li.7b": { fr: "Droit de rectification de vos données", en: "Right to rectify your data" },
+  "privacy.li.7c": { fr: "Droit à l'effacement (\"droit à l'oubli\")", en: "Right to erasure (\"right to be forgotten\")" },
+  "privacy.li.7d": { fr: "Droit à la portabilité de vos données", en: "Right to data portability" },
+  "privacy.li.7e": { fr: "Droit d'opposition au traitement", en: "Right to object to processing" },
+  "privacy.p.7b": {
     fr: "Pour exercer votre droit à l'effacement et demander la suppression de vos données, vous pouvez remplir notre <a href=\"https://forms.gle/53ep82836j8of8sRA\" target=\"_blank\" rel=\"noopener\">formulaire de demande de suppression</a>.",
     en: "To exercise your right to erasure and request the deletion of your data, you can fill out our <a href=\"https://forms.gle/53ep82836j8of8sRA\" target=\"_blank\" rel=\"noopener\">data deletion request form</a>."
   },
-  "privacy.h2.7": { fr: "7. Protection des mineurs", en: "7. Children's Privacy" },
-  "privacy.p.7": {
+  "privacy.h2.8": { fr: "8. Protection des mineurs", en: "8. Children's Privacy" },
+  "privacy.p.8": {
     fr: "Bear Up n'est pas destiné aux enfants de moins de 16 ans. Nous ne collectons pas sciemment d'informations personnelles auprès de mineurs. Si vous êtes parent et pensez que votre enfant nous a fourni des informations personnelles, contactez-nous pour que nous les supprimions.",
     en: "Bear Up is not intended for children under 16 years of age. We do not knowingly collect personal information from minors. If you are a parent and believe your child has provided us with personal information, please contact us so we can delete it."
   },
-  "privacy.h2.8": { fr: "8. Modifications de cette politique", en: "8. Changes to This Policy" },
-  "privacy.p.8": {
+  "privacy.h2.9": { fr: "9. Modifications de cette politique", en: "9. Changes to This Policy" },
+  "privacy.p.9": {
     fr: "Nous pouvons mettre à jour cette politique de confidentialité de temps à autre. Toute modification sera publiée sur cette page avec une nouvelle date de mise à jour. Nous vous encourageons à consulter régulièrement cette politique.",
     en: "We may update this privacy policy from time to time. Any changes will be posted on this page with an updated date. We encourage you to review this policy regularly."
   },
-  "privacy.h2.9": { fr: "9. Contact", en: "9. Contact" },
-  "privacy.p.9": {
+  "privacy.h2.10": { fr: "10. Contact", en: "10. Contact" },
+  "privacy.p.10": {
     fr: "Pour toute question relative à cette politique de confidentialité ou pour exercer vos droits, contactez-nous à :",
     en: "For any questions regarding this privacy policy or to exercise your rights, contact us at:"
   },
@@ -385,11 +398,11 @@ const translations = {
   // ── Disclaimer ──
   // ══════════════════════════════════════
   "disclaimer.title": { fr: "Avertissement Légal et Conditions d'Utilisation", en: "Legal Disclaimer and Terms of Use" },
-  "disclaimer.date": { fr: "Dernière mise à jour : 3 mars 2026", en: "Last updated: March 3, 2026" },
+  "disclaimer.date": { fr: "Dernière mise à jour : 5 mars 2026", en: "Last updated: March 5, 2026" },
   "disclaimer.h2.1": { fr: "1. Absence de conseil médical", en: "1. No Medical Advice" },
   "disclaimer.p.1": {
-    fr: "Bear Up est un outil de support conversationnel animé par une intelligence artificielle (\"L'Ami Solidaire\") conçu pour accompagner les personnes en crise d'attaque de panique. Cette application ne constitue pas un dispositif médical et ne délivre aucun diagnostic, avis médical ou traitement.",
-    en: "Bear Up is a conversational support tool powered by artificial intelligence (\"The Supportive Friend\") designed to assist people experiencing panic attacks. This application is not a medical device and does not provide any diagnosis, medical advice, or treatment."
+    fr: "Bear Up est un outil de support conversationnel animé par une intelligence artificielle (\"L'Ami Solidaire\") conçu pour accompagner les personnes en crise d'attaque de panique. Cette application n'est pas un dispositif médical, ne délivre aucun diagnostic, avis médical ou traitement et ne remplace en aucun cas l'avis d'un professionnel de santé qualifié (médecin, psychiatre, psychologue). L'utilisation de Bear Up ne constitue pas une consultation médicale et ne doit jamais se substituer à un suivi médical professionnel.",
+    en: "Bear Up is a conversational support tool powered by artificial intelligence (\"The Supportive Friend\") designed to assist people experiencing panic attacks. This application is not a medical device, does not provide any diagnosis, medical advice, or treatment, and in no way replaces the advice of a qualified healthcare professional (doctor, psychiatrist, psychologist). Using Bear Up does not constitute a medical consultation and should never substitute for professional medical care."
   },
   "disclaimer.h2.2": { fr: "2. Prérequis à l'utilisation", en: "2. Prerequisites for Use" },
   "disclaimer.p.2": {
@@ -414,8 +427,29 @@ const translations = {
     fr: "Bear Up propose un soutien de type \"pair-à-pair\" (ami virtuel). Il ne remplace en aucun cas un suivi psychothérapeutique ou un traitement médicamenteux prescrit par un professionnel.",
     en: "Bear Up offers \"peer-to-peer\" support (virtual friend). It does not in any way replace psychotherapeutic follow-up or medication prescribed by a professional."
   },
-  "disclaimer.h2.5": { fr: "5. Responsabilité", en: "5. Liability" },
-  "disclaimer.p.5": {
+  "disclaimer.h2.5": { fr: "5. Traitement des données par intelligence artificielle", en: "5. AI Data Processing" },
+  "disclaimer.p.5a": {
+    fr: "Lorsque vous utilisez Bear Up, vos messages sont transmis à des services d'intelligence artificielle tiers via notre infrastructure sécurisée (Supabase Edge Functions). Vous reconnaissez et acceptez que :",
+    en: "When you use Bear Up, your messages are transmitted to third-party artificial intelligence services through our secure infrastructure (Supabase Edge Functions). You acknowledge and agree that:"
+  },
+  "disclaimer.li.5a": {
+    fr: "<strong>Destinataires des données :</strong> Vos messages sont transmis à l'interface OpenRouter, qui agit comme passerelle vers le modèle de langage Gemini (Google).",
+    en: "<strong>Data recipients:</strong> Your messages are transmitted to the OpenRouter interface, which acts as a gateway to the Gemini (Google) language model."
+  },
+  "disclaimer.li.5b": {
+    fr: "<strong>Nature des données :</strong> Seul le contenu textuel de vos messages est envoyé. Aucune donnée personnelle identifiable (nom, email, adresse IP) n'est transmise à OpenRouter ou Google.",
+    en: "<strong>Nature of the data:</strong> Only the text content of your messages is sent. No personally identifiable data (name, email, IP address) is transmitted to OpenRouter or Google."
+  },
+  "disclaimer.li.5c": {
+    fr: "<strong>Finalité :</strong> Ces données sont traitées uniquement pour générer une réponse immédiate et ne sont pas utilisées pour l'entraînement de modèles tiers.",
+    en: "<strong>Purpose:</strong> This data is processed solely to generate an immediate response and is not used for training third-party models."
+  },
+  "disclaimer.li.5d": {
+    fr: "<strong>Consentement :</strong> En validant ces conditions, vous autorisez expressément ce transfert technique nécessaire au fonctionnement du chat.",
+    en: "<strong>Consent:</strong> By accepting these terms, you expressly authorize this technical transfer necessary for the chat to function."
+  },
+  "disclaimer.h2.6": { fr: "6. Responsabilité", en: "6. Liability" },
+  "disclaimer.p.6": {
     fr: "L'utilisateur est seul responsable de l'interprétation des conseils de grounding ou de respiration proposés. L'éditeur de Bear Up ne saurait être tenu responsable d'une utilisation de l'application en dehors du cadre du soutien aux attaques de panique diagnostiquées.",
     en: "The user is solely responsible for the interpretation of grounding or breathing advice provided. The publisher of Bear Up cannot be held liable for any use of the application outside the scope of support for diagnosed panic attacks."
   },
