@@ -292,18 +292,13 @@ const translations = {
     fr: "Pour exercer votre droit à l'effacement et demander la suppression de vos données, vous pouvez remplir notre <a href=\"https://forms.gle/53ep82836j8of8sRA\" target=\"_blank\" rel=\"noopener\">formulaire de demande de suppression</a>.",
     en: "To exercise your right to erasure and request the deletion of your data, you can fill out our <a href=\"https://forms.gle/53ep82836j8of8sRA\" target=\"_blank\" rel=\"noopener\">data deletion request form</a>."
   },
-  "privacy.h2.8": { fr: "8. Protection des mineurs", en: "8. Children's Privacy" },
+  "privacy.h2.8": { fr: "8. Modifications de cette politique", en: "8. Changes to This Policy" },
   "privacy.p.8": {
-    fr: "Bear Up n'est pas destiné aux enfants de moins de 16 ans. Nous ne collectons pas sciemment d'informations personnelles auprès de mineurs. Si vous êtes parent et pensez que votre enfant nous a fourni des informations personnelles, contactez-nous pour que nous les supprimions.",
-    en: "Bear Up is not intended for children under 16 years of age. We do not knowingly collect personal information from minors. If you are a parent and believe your child has provided us with personal information, please contact us so we can delete it."
-  },
-  "privacy.h2.9": { fr: "9. Modifications de cette politique", en: "9. Changes to This Policy" },
-  "privacy.p.9": {
     fr: "Nous pouvons mettre à jour cette politique de confidentialité de temps à autre. Toute modification sera publiée sur cette page avec une nouvelle date de mise à jour. Nous vous encourageons à consulter régulièrement cette politique.",
     en: "We may update this privacy policy from time to time. Any changes will be posted on this page with an updated date. We encourage you to review this policy regularly."
   },
-  "privacy.h2.10": { fr: "10. Contact", en: "10. Contact" },
-  "privacy.p.10": {
+  "privacy.h2.9": { fr: "9. Contact", en: "9. Contact" },
+  "privacy.p.9": {
     fr: "Pour toute question relative à cette politique de confidentialité ou pour exercer vos droits, contactez-nous à :",
     en: "For any questions regarding this privacy policy or to exercise your rights, contact us at:"
   },
@@ -336,21 +331,25 @@ const translations = {
     fr: "En cas d'urgence médicale, appelez immédiatement les services d'urgence (15 — SAMU, ou 112). En cas de pensées suicidaires, contactez le 3114 (numéro national de prévention du suicide).",
     en: "In case of a medical emergency, immediately call emergency services (15 — SAMU, or 112). In case of suicidal thoughts, contact 3114 (national suicide prevention number)."
   },
+  "terms.p.3c": {
+    fr: "En utilisant Bear Up, vous reconnaissez avoir pleinement conscience que vous interagissez avec une intelligence artificielle et non avec un professionnel de santé. Vous acceptez les limitations inhérentes à cette technologie, notamment le risque de réponses imprécises, incomplètes ou inadaptées à votre situation particulière. L'utilisation de l'application ne saurait en aucun cas se substituer à une consultation, un diagnostic ou un traitement médical.",
+    en: "By using Bear Up, you acknowledge that you are fully aware that you are interacting with an artificial intelligence and not with a healthcare professional. You accept the inherent limitations of this technology, including the risk of inaccurate, incomplete, or unsuitable responses for your particular situation. The use of the application cannot under any circumstances substitute for a medical consultation, diagnosis, or treatment."
+  },
   "terms.h2.4": { fr: "4. Comptes utilisateurs", en: "4. User Accounts" },
   "terms.p.4": {
     fr: "La création d'un compte est obligatoire pour utiliser l'application. Vous pouvez vous inscrire via Apple Sign-In ou Google Sign-In. Vous êtes responsable de la sécurité de votre compte et de toute activité qui s'y déroule.",
     en: "Creating an account is required to use the application. You can sign up via Apple Sign-In or Google Sign-In. You are responsible for the security of your account and all activity that occurs under it."
   },
   "terms.h2.5": { fr: "5. Offre gratuite et abonnement premium", en: "5. Free Tier and Premium Subscription" },
-  "terms.h3.5a": { fr: "5.1 Offre gratuite", en: "5.1 Free Tier" },
+  "terms.h3.5a": { fr: "5.1 Offre gratuite — L'Ami Solidaire", en: "5.1 Free Tier — The Supportive Friend" },
   "terms.p.5a": {
-    fr: "Chaque appareil dispose de 30 messages gratuits avec l'assistant IA. Ce quota est lié à l'appareil et ne peut être réinitialisé en créant un nouveau compte. Une fois le quota épuisé, des réponses pré-enregistrées restent disponibles via les boutons de suggestion.",
-    en: "Each device has 30 free messages with the AI assistant. This quota is linked to the device and cannot be reset by creating a new account. Once the quota is exhausted, pre-recorded responses remain available via suggestion buttons."
+    fr: "L'offre gratuite donne accès au persona \"L'Ami Solidaire\", un compagnon IA qui adopte une approche chaleureuse, empathique et amicale. Il s'exprime sur un ton bienveillant, utilise un langage courant et rassurant, et privilégie le soutien émotionnel et les encouragements pour accompagner l'utilisateur lors d'épisodes d'anxiété ou d'attaques de panique. Chaque appareil dispose de 30 messages gratuits avec ce persona. Ce quota est lié à l'appareil et ne peut être réinitialisé en créant un nouveau compte. Une fois le quota épuisé, des réponses pré-enregistrées restent disponibles via les boutons de suggestion.",
+    en: "The free tier gives access to \"The Supportive Friend\" persona, an AI companion that takes a warm, empathetic and friendly approach. It speaks in a caring tone, uses everyday reassuring language, and focuses on emotional support and encouragement to help users during anxiety episodes or panic attacks. Each device has 30 free messages with this persona. This quota is linked to the device and cannot be reset by creating a new account. Once the quota is exhausted, pre-recorded responses remain available via suggestion buttons."
   },
-  "terms.h3.5b": { fr: "5.2 Abonnement premium", en: "5.2 Premium Subscription" },
+  "terms.h3.5b": { fr: "5.2 Abonnement premium — L'Assistant Clinique", en: "5.2 Premium Subscription — The Clinical Assistant" },
   "terms.p.5b": {
-    fr: "L'abonnement premium offre un accès illimité aux messages IA et au persona \"L'Assistant Clinique\". L'abonnement est géré via l'App Store (Apple) ou Google Play et se renouvelle automatiquement. Vous pouvez gérer ou annuler votre abonnement à tout moment depuis les paramètres de votre store.",
-    en: "The premium subscription offers unlimited access to AI messages and \"The Clinical Assistant\" persona. The subscription is managed through the App Store (Apple) or Google Play and renews automatically. You can manage or cancel your subscription at any time from your store settings."
+    fr: "L'abonnement premium offre un accès illimité aux messages IA et débloque le persona \"L'Assistant Clinique\". Contrairement à L'Ami Solidaire, L'Assistant Clinique adopte une approche structurée et rationnelle : il s'appuie sur des techniques issues des thérapies cognitivo-comportementales (TCC), propose des exercices guidés (respiration, ancrage sensoriel, restructuration cognitive) et fournit des explications factuelles sur les mécanismes physiologiques de l'anxiété. L'abonnement est géré via l'App Store (Apple) ou Google Play et se renouvelle automatiquement. Vous pouvez gérer ou annuler votre abonnement à tout moment depuis les paramètres de votre store.",
+    en: "The premium subscription offers unlimited access to AI messages and unlocks \"The Clinical Assistant\" persona. Unlike The Supportive Friend, The Clinical Assistant takes a structured and rational approach: it draws on cognitive-behavioral therapy (CBT) techniques, offers guided exercises (breathing, sensory grounding, cognitive restructuring) and provides factual explanations of the physiological mechanisms of anxiety. The subscription is managed through the App Store (Apple) or Google Play and renews automatically. You can manage or cancel your subscription at any time from your store settings."
   },
   "terms.h2.6": { fr: "6. Garde-fous de sécurité", en: "6. Safety Guardrails" },
   "terms.p.6": {
@@ -363,33 +362,38 @@ const translations = {
   "terms.li.7b": { fr: "Tenter de contourner les limitations techniques ou les garde-fous de sécurité", en: "Attempt to circumvent technical limitations or safety guardrails" },
   "terms.li.7c": { fr: "Partager votre compte avec des tiers", en: "Share your account with third parties" },
   "terms.li.7d": { fr: "Utiliser l'application pour générer du contenu nuisible ou inapproprié", en: "Use the application to generate harmful or inappropriate content" },
-  "terms.h2.8": { fr: "8. Propriété intellectuelle", en: "8. Intellectual Property" },
+  "terms.h2.8": { fr: "8. Restriction d'âge", en: "8. Age Restriction" },
   "terms.p.8": {
+    fr: "L'utilisation de Bear Up est strictement interdite aux mineurs de moins de 18 ans. Nous ne collectons pas sciemment d'informations personnelles auprès de mineurs. Si vous êtes parent et pensez que votre enfant a utilisé l'application ou nous a fourni des informations personnelles, contactez-nous pour que nous les supprimions.",
+    en: "The use of Bear Up is strictly prohibited for minors under 18 years of age. We do not knowingly collect personal information from minors. If you are a parent and believe your child has used the application or provided us with personal information, please contact us so we can delete it."
+  },
+  "terms.h2.9": { fr: "9. Propriété intellectuelle", en: "9. Intellectual Property" },
+  "terms.p.9": {
     fr: "L'application Bear Up, son design, ses contenus et son code source sont la propriété de Nurobix. Tous droits réservés. Vous n'êtes pas autorisé à copier, modifier, distribuer ou créer des œuvres dérivées de l'application.",
     en: "The Bear Up application, its design, content, and source code are the property of Nurobix. All rights reserved. You are not authorized to copy, modify, distribute, or create derivative works from the application."
   },
-  "terms.h2.9": { fr: "9. Limitation de responsabilité", en: "9. Limitation of Liability" },
-  "terms.p.9": {
-    fr: "L'application est fournie \"en l'état\". Nurobix ne garantit pas que le service sera ininterrompu, exempt d'erreurs ou adapté à un usage médical. Dans les limites autorisées par la loi, Nurobix ne sera pas responsable des dommages directs, indirects, accessoires ou consécutifs résultant de l'utilisation de l'application.",
-    en: "The application is provided \"as is\". Nurobix does not guarantee that the service will be uninterrupted, error-free, or suitable for medical use. To the extent permitted by law, Nurobix shall not be liable for any direct, indirect, incidental, or consequential damages resulting from the use of the application."
-  },
-  "terms.h2.10": { fr: "10. Résiliation", en: "10. Termination" },
+  "terms.h2.10": { fr: "10. Limitation de responsabilité", en: "10. Limitation of Liability" },
   "terms.p.10": {
+    fr: "L'application est fournie \"en l'état\". Nurobix ne garantit pas que le service sera ininterrompu, exempt d'erreurs ou adapté à un usage médical. L'utilisateur est seul responsable de l'interprétation des messages générés par l'IA. Dans les limites autorisées par la loi, Nurobix ne sera pas responsable des dommages directs, indirects, accessoires ou consécutifs résultant de l'utilisation de l'application. L'éditeur de Bear Up ne saurait être tenu responsable d'une utilisation de l'application en dehors du cadre du soutien aux attaques de panique diagnostiquées. En tout état de cause, si la responsabilité de l'éditeur devait être engagée, elle serait limitée aux montants effectivement versés par l'utilisateur pour l'utilisation de l'application, soit au maximum le montant de l'abonnement premium en cours.",
+    en: "The application is provided \"as is\". Nurobix does not guarantee that the service will be uninterrupted, error-free, or suitable for medical use. The user is solely responsible for the interpretation of AI-generated messages. To the extent permitted by law, Nurobix shall not be liable for any direct, indirect, incidental, or consequential damages resulting from the use of the application. The publisher of Bear Up cannot be held liable for any use of the application outside the scope of support for diagnosed panic attacks. In any event, should the publisher's liability be established, it shall be limited to the amounts actually paid by the user for the use of the application, i.e. at most the current premium subscription fee."
+  },
+  "terms.h2.11": { fr: "11. Résiliation", en: "11. Termination" },
+  "terms.p.11": {
     fr: "Nous nous réservons le droit de suspendre ou de résilier votre accès à l'application à tout moment, avec ou sans motif. Vous pouvez supprimer votre compte directement depuis l'application (Paramètres > Mon compte > Supprimer mon compte) ou via notre <a href=\"https://forms.gle/53ep82836j8of8sRA\" target=\"_blank\" rel=\"noopener\">formulaire en ligne</a>. La suppression est irréversible et entraîne l'effacement de toutes vos données.",
     en: "We reserve the right to suspend or terminate your access to the application at any time, with or without cause. You can delete your account directly from the app (Settings > My account > Delete my account) or via our <a href=\"https://forms.gle/53ep82836j8of8sRA\" target=\"_blank\" rel=\"noopener\">online form</a>. Deletion is irreversible and results in the erasure of all your data."
   },
-  "terms.h2.11": { fr: "11. Droit applicable", en: "11. Governing Law" },
-  "terms.p.11": {
+  "terms.h2.12": { fr: "12. Droit applicable", en: "12. Governing Law" },
+  "terms.p.12": {
     fr: "Ces conditions sont régies par le droit français. Tout litige sera soumis à la compétence exclusive des tribunaux français.",
     en: "These terms are governed by French law. Any dispute shall be subject to the exclusive jurisdiction of French courts."
   },
-  "terms.h2.12": { fr: "12. Modifications", en: "12. Changes" },
-  "terms.p.12": {
+  "terms.h2.13": { fr: "13. Modifications", en: "13. Changes" },
+  "terms.p.13": {
     fr: "Nous nous réservons le droit de modifier ces conditions à tout moment. Les modifications prendront effet dès leur publication. L'utilisation continue de l'application après modification vaut acceptation des nouvelles conditions.",
     en: "We reserve the right to modify these terms at any time. Changes will take effect upon publication. Continued use of the application after modification constitutes acceptance of the new terms."
   },
-  "terms.h2.13": { fr: "13. Contact", en: "13. Contact" },
-  "terms.p.13": {
+  "terms.h2.14": { fr: "14. Contact", en: "14. Contact" },
+  "terms.p.14": {
     fr: "Pour toute question relative à ces conditions, contactez-nous à :",
     en: "For any questions regarding these terms, contact us at:"
   },
@@ -397,12 +401,16 @@ const translations = {
   // ══════════════════════════════════════
   // ── Disclaimer ──
   // ══════════════════════════════════════
-  "disclaimer.title": { fr: "Avertissement Légal et Conditions d'Utilisation", en: "Legal Disclaimer and Terms of Use" },
+  "disclaimer.title": { fr: "Avertissement Légal préalable à l'utilisation de l'application", en: "Legal Disclaimer Prior to Application Use" },
   "disclaimer.date": { fr: "Dernière mise à jour : 5 mars 2026", en: "Last updated: March 5, 2026" },
   "disclaimer.h2.1": { fr: "1. Absence de conseil médical", en: "1. No Medical Advice" },
   "disclaimer.p.1": {
     fr: "Bear Up est un outil de support conversationnel animé par une intelligence artificielle (\"L'Ami Solidaire\") conçu pour accompagner les personnes en crise d'attaque de panique. Cette application n'est pas un dispositif médical, ne délivre aucun diagnostic, avis médical ou traitement et ne remplace en aucun cas l'avis d'un professionnel de santé qualifié (médecin, psychiatre, psychologue). L'utilisation de Bear Up ne constitue pas une consultation médicale et ne doit jamais se substituer à un suivi médical professionnel.",
     en: "Bear Up is a conversational support tool powered by artificial intelligence (\"The Supportive Friend\") designed to assist people experiencing panic attacks. This application is not a medical device, does not provide any diagnosis, medical advice, or treatment, and in no way replaces the advice of a qualified healthcare professional (doctor, psychiatrist, psychologist). Using Bear Up does not constitute a medical consultation and should never substitute for professional medical care."
+  },
+  "disclaimer.p.1b": {
+    fr: "En utilisant Bear Up, vous reconnaissez avoir pleinement conscience que vous interagissez avec une intelligence artificielle et non avec un professionnel de santé. Vous acceptez les limitations inhérentes à cette technologie, notamment le risque de réponses imprécises, incomplètes ou inadaptées à votre situation particulière. L'utilisation de l'application ne saurait en aucun cas se substituer à une consultation, un diagnostic ou un traitement médical.",
+    en: "By using Bear Up, you acknowledge that you are fully aware that you are interacting with an artificial intelligence and not with a healthcare professional. You accept the inherent limitations of this technology, including the risk of inaccurate, incomplete, or unsuitable responses for your particular situation. The use of the application cannot under any circumstances substitute for a medical consultation, diagnosis, or treatment."
   },
   "disclaimer.h2.2": { fr: "2. Prérequis à l'utilisation", en: "2. Prerequisites for Use" },
   "disclaimer.p.2": {
@@ -448,10 +456,10 @@ const translations = {
     fr: "<strong>Consentement :</strong> En validant ces conditions, vous autorisez expressément ce transfert technique nécessaire au fonctionnement du chat.",
     en: "<strong>Consent:</strong> By accepting these terms, you expressly authorize this technical transfer necessary for the chat to function."
   },
-  "disclaimer.h2.6": { fr: "6. Responsabilité", en: "6. Liability" },
+  "disclaimer.h2.6": { fr: "6. Limitation de responsabilité", en: "6. Limitation of Liability" },
   "disclaimer.p.6": {
-    fr: "L'utilisateur est seul responsable de l'interprétation des conseils de grounding ou de respiration proposés. L'éditeur de Bear Up ne saurait être tenu responsable d'une utilisation de l'application en dehors du cadre du soutien aux attaques de panique diagnostiquées.",
-    en: "The user is solely responsible for the interpretation of grounding or breathing advice provided. The publisher of Bear Up cannot be held liable for any use of the application outside the scope of support for diagnosed panic attacks."
+    fr: "L'application est fournie \"en l'état\". Nurobix ne garantit pas que le service sera ininterrompu, exempt d'erreurs ou adapté à un usage médical. L'utilisateur est seul responsable de l'interprétation des messages générés par l'IA. Dans les limites autorisées par la loi, Nurobix ne sera pas responsable des dommages directs, indirects, accessoires ou consécutifs résultant de l'utilisation de l'application. L'éditeur de Bear Up ne saurait être tenu responsable d'une utilisation de l'application en dehors du cadre du soutien aux attaques de panique diagnostiquées. En tout état de cause, si la responsabilité de l'éditeur devait être engagée, elle serait limitée aux montants effectivement versés par l'utilisateur pour l'utilisation de l'application, soit au maximum le montant de l'abonnement premium en cours.",
+    en: "The application is provided \"as is\". Nurobix does not guarantee that the service will be uninterrupted, error-free, or suitable for medical use. The user is solely responsible for the interpretation of AI-generated messages. To the extent permitted by law, Nurobix shall not be liable for any direct, indirect, incidental, or consequential damages resulting from the use of the application. The publisher of Bear Up cannot be held liable for any use of the application outside the scope of support for diagnosed panic attacks. In any event, should the publisher's liability be established, it shall be limited to the amounts actually paid by the user for the use of the application, i.e. at most the current premium subscription fee."
   },
 
   // ══════════════════════════════════════
