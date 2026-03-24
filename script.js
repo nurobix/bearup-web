@@ -10,6 +10,7 @@ const translations = {
   "nav.support": { fr: "Support", en: "Support" },
   "nav.privacy": { fr: "Confidentialité", en: "Privacy" },
   "nav.terms": { fr: "CGU", en: "Terms" },
+  "nav.cgv": { fr: "CGV", en: "Terms of Sale" },
   "nav.disclaimer": { fr: "Disclaimer", en: "Disclaimer" },
 
   // ── Hero ──
@@ -196,7 +197,7 @@ const translations = {
   // ── Privacy Policy ──
   // ══════════════════════════════════════
   "privacy.title": { fr: "Politique de confidentialité", en: "Privacy Policy" },
-  "privacy.date": { fr: "Dernière mise à jour : 5 mars 2026", en: "Last updated: March 5, 2026" },
+  "privacy.date": { fr: "Dernière mise à jour : 24 mars 2026", en: "Last updated: March 24, 2026" },
   "privacy.intro": {
     fr: "Nurobix (\"nous\", \"notre\") exploite l'application mobile Bear Up. Cette politique de confidentialité décrit comment nous collectons, utilisons et protégeons vos informations personnelles lorsque vous utilisez notre application.",
     en: "Nurobix (\"we\", \"our\", \"us\") operates the Bear Up mobile application. This privacy policy describes how we collect, use, and protect your personal information when you use our application."
@@ -307,7 +308,7 @@ const translations = {
   // ── Terms & Conditions ──
   // ══════════════════════════════════════
   "terms.title": { fr: "Conditions Générales d'Utilisation", en: "Terms & Conditions" },
-  "terms.date": { fr: "Dernière mise à jour : 3 mars 2026", en: "Last updated: March 3, 2026" },
+  "terms.date": { fr: "Dernière mise à jour : 24 mars 2026", en: "Last updated: March 24, 2026" },
   "terms.intro": {
     fr: "Veuillez lire attentivement ces conditions générales d'utilisation avant d'utiliser l'application Bear Up exploitée par Nurobix.",
     en: "Please read these terms and conditions carefully before using the Bear Up application operated by Nurobix."
@@ -374,8 +375,8 @@ const translations = {
   },
   "terms.h2.10": { fr: "10. Limitation de responsabilité", en: "10. Limitation of Liability" },
   "terms.p.10": {
-    fr: "L'application est fournie \"en l'état\". Nurobix ne garantit pas que le service sera ininterrompu, exempt d'erreurs ou adapté à un usage médical. L'utilisateur est seul responsable de l'interprétation des messages générés par l'IA. Dans les limites autorisées par la loi, Nurobix ne sera pas responsable des dommages directs, indirects, accessoires ou consécutifs résultant de l'utilisation de l'application. L'éditeur de Bear Up ne saurait être tenu responsable d'une utilisation de l'application en dehors du cadre du soutien aux attaques de panique diagnostiquées. En tout état de cause, si la responsabilité de l'éditeur devait être engagée, elle serait limitée aux montants effectivement versés par l'utilisateur pour l'utilisation de l'application, soit au maximum le montant de l'abonnement premium en cours.",
-    en: "The application is provided \"as is\". Nurobix does not guarantee that the service will be uninterrupted, error-free, or suitable for medical use. The user is solely responsible for the interpretation of AI-generated messages. To the extent permitted by law, Nurobix shall not be liable for any direct, indirect, incidental, or consequential damages resulting from the use of the application. The publisher of Bear Up cannot be held liable for any use of the application outside the scope of support for diagnosed panic attacks. In any event, should the publisher's liability be established, it shall be limited to the amounts actually paid by the user for the use of the application, i.e. at most the current premium subscription fee."
+    fr: "L'application est fournie \"en l'état\". Nurobix ne garantit pas que le service sera ininterrompu, exempt d'erreurs ou adapté à un usage médical. L'utilisateur est seul responsable de l'interprétation des messages générés par l'IA. Dans les limites autorisées par la loi, Nurobix ne sera pas responsable des dommages directs, indirects, accessoires ou consécutifs résultant de l'utilisation de l'application. L'éditeur de Bear Up ne saurait être tenu responsable d'une utilisation de l'application en dehors du cadre du soutien aux attaques de panique diagnostiquées. Nurobix ne saurait être tenu responsable de l'état de santé d'un utilisateur ou d'un tiers. L'utilisateur garde intacte sa responsabilité de choix et d'action. En tout état de cause, si la responsabilité de l'éditeur devait être engagée, elle serait limitée aux montants effectivement versés par l'utilisateur pour l'utilisation de l'application, soit au maximum le montant de l'abonnement premium en cours.",
+    en: "The application is provided \"as is\". Nurobix does not guarantee that the service will be uninterrupted, error-free, or suitable for medical use. The user is solely responsible for the interpretation of AI-generated messages. To the extent permitted by law, Nurobix shall not be liable for any direct, indirect, incidental, or consequential damages resulting from the use of the application. The publisher of Bear Up cannot be held liable for any use of the application outside the scope of support for diagnosed panic attacks. Nurobix cannot be held responsible for the health condition of any user or third party. The user retains full responsibility for their own choices and actions. In any event, should the publisher's liability be established, it shall be limited to the amounts actually paid by the user for the use of the application, i.e. at most the current premium subscription fee."
   },
   "terms.h2.11": { fr: "11. Résiliation", en: "11. Termination" },
   "terms.p.11": {
@@ -399,10 +400,123 @@ const translations = {
   },
 
   // ══════════════════════════════════════
+  // ── CGV ──
+  // ══════════════════════════════════════
+  "cgv.title": { fr: "Conditions Générales de Vente", en: "Terms of Sale" },
+  "cgv.date": { fr: "Dernière mise à jour : 24 mars 2026", en: "Last updated: March 24, 2026" },
+  "cgv.intro": {
+    fr: "Les présentes Conditions Générales de Vente (ci-après \"CGV\") régissent la vente de l'abonnement premium proposé dans l'application mobile Bear Up, éditée par Nurobix.",
+    en: "These Terms of Sale (hereinafter \"ToS\") govern the sale of the premium subscription offered in the Bear Up mobile application, published by Nurobix."
+  },
+  "cgv.h2.1": { fr: "1. Objet", en: "1. Purpose" },
+  "cgv.p.1": {
+    fr: "Les présentes CGV ont pour objet de définir les conditions dans lesquelles Nurobix propose à l'utilisateur l'accès à l'abonnement premium de l'application Bear Up, ainsi que les droits et obligations des parties dans ce cadre.",
+    en: "These Terms of Sale define the conditions under which Nurobix offers the user access to the Bear Up premium subscription, as well as the rights and obligations of the parties in this context."
+  },
+  "cgv.h2.2": { fr: "2. Description de l'offre premium", en: "2. Premium Offer Description" },
+  "cgv.p.2a": {
+    fr: "L'abonnement premium Bear Up offre les fonctionnalités suivantes :",
+    en: "The Bear Up premium subscription offers the following features:"
+  },
+  "cgv.li.2a": {
+    fr: "Accès illimité aux messages avec l'assistant IA (suppression de la limite de 30 messages gratuits)",
+    en: "Unlimited access to AI assistant messages (removal of the 30 free message limit)"
+  },
+  "cgv.li.2b": {
+    fr: "Accès au persona \"L'Assistant Clinique\", un accompagnateur structuré basé sur les techniques cognitivo-comportementales (TCC)",
+    en: "Access to \"The Clinical Assistant\" persona, a structured companion based on cognitive-behavioral therapy (CBT) techniques"
+  },
+  "cgv.li.2c": {
+    fr: "Possibilité de définir des instructions personnalisées pour l'assistant IA",
+    en: "Ability to set custom instructions for the AI assistant"
+  },
+  "cgv.h2.3": { fr: "3. Tarifs", en: "3. Pricing" },
+  "cgv.p.3": {
+    fr: "L'abonnement premium est proposé selon les formules suivantes :",
+    en: "The premium subscription is available in the following plans:"
+  },
+  "cgv.li.3a": { fr: "Abonnement mensuel : 7,99 € par mois", en: "Monthly subscription: €7.99 per month" },
+  "cgv.li.3b": { fr: "Abonnement annuel : 59,99 € par an", en: "Annual subscription: €59.99 per year" },
+  "cgv.p.3b": {
+    fr: "Les prix sont indiqués en euros, toutes taxes comprises (TTC). Nurobix se réserve le droit de modifier ses tarifs à tout moment. Les modifications tarifaires ne s'appliquent qu'aux nouveaux abonnements ou aux renouvellements postérieurs à la date de modification.",
+    en: "Prices are listed in euros, including all taxes. Nurobix reserves the right to modify its pricing at any time. Price changes only apply to new subscriptions or renewals after the modification date."
+  },
+  "cgv.h2.4": { fr: "4. Période d'essai gratuite", en: "4. Free Trial Period" },
+  "cgv.p.4": {
+    fr: "Une période d'essai gratuite de 7 jours est proposée aux nouveaux abonnés. Durant cette période, l'utilisateur bénéficie de l'ensemble des fonctionnalités premium. À l'issue de la période d'essai, l'abonnement est automatiquement converti en abonnement payant au tarif en vigueur, sauf annulation par l'utilisateur avant la fin de la période d'essai.",
+    en: "A 7-day free trial is offered to new subscribers. During this period, the user has access to all premium features. At the end of the trial period, the subscription is automatically converted to a paid subscription at the current rate, unless cancelled by the user before the end of the trial period."
+  },
+  "cgv.h2.5": { fr: "5. Modalités de souscription et de paiement", en: "5. Subscription and Payment Terms" },
+  "cgv.p.5a": {
+    fr: "L'abonnement premium est souscrit et géré exclusivement via les plateformes de distribution :",
+    en: "The premium subscription is subscribed to and managed exclusively through the distribution platforms:"
+  },
+  "cgv.li.5a": {
+    fr: "<strong>App Store</strong> (Apple) pour les appareils iOS",
+    en: "<strong>App Store</strong> (Apple) for iOS devices"
+  },
+  "cgv.li.5b": {
+    fr: "<strong>Google Play</strong> pour les appareils Android",
+    en: "<strong>Google Play</strong> for Android devices"
+  },
+  "cgv.p.5b": {
+    fr: "Le paiement est effectué via le compte App Store ou Google Play de l'utilisateur, selon les conditions et moyens de paiement acceptés par ces plateformes. Nurobix n'a pas accès aux informations bancaires de l'utilisateur.",
+    en: "Payment is made through the user's App Store or Google Play account, according to the terms and payment methods accepted by these platforms. Nurobix does not have access to the user's banking information."
+  },
+  "cgv.h2.6": { fr: "6. Renouvellement automatique", en: "6. Automatic Renewal" },
+  "cgv.p.6": {
+    fr: "L'abonnement se renouvelle automatiquement à chaque échéance (mensuelle ou annuelle) sauf annulation par l'utilisateur. Le renouvellement est facturé dans les 24 heures précédant la fin de la période en cours, au tarif de l'abonnement souscrit.",
+    en: "The subscription renews automatically at each term (monthly or annual) unless cancelled by the user. Renewal is charged within 24 hours before the end of the current period, at the subscribed rate."
+  },
+  "cgv.h2.7": { fr: "7. Résiliation et annulation", en: "7. Termination and Cancellation" },
+  "cgv.p.7a": {
+    fr: "L'utilisateur peut annuler son abonnement à tout moment depuis les paramètres de son compte App Store ou Google Play. L'annulation prend effet à la fin de la période en cours déjà payée. L'utilisateur conserve l'accès aux fonctionnalités premium jusqu'à cette date.",
+    en: "The user can cancel their subscription at any time from their App Store or Google Play account settings. Cancellation takes effect at the end of the current paid period. The user retains access to premium features until that date."
+  },
+  "cgv.p.7b": {
+    fr: "Nurobix se réserve le droit de résilier l'abonnement d'un utilisateur en cas de violation des Conditions Générales d'Utilisation.",
+    en: "Nurobix reserves the right to terminate a user's subscription in case of violation of the Terms of Use."
+  },
+  "cgv.h2.8": { fr: "8. Droit de rétractation", en: "8. Right of Withdrawal" },
+  "cgv.p.8": {
+    fr: "Conformément à l'article L. 221-28 du Code de la consommation, le droit de rétractation ne peut être exercé pour les contrats de fourniture de contenu numérique non fourni sur un support matériel dont l'exécution a commencé avec l'accord du consommateur. En souscrivant à l'abonnement premium et en commençant à utiliser les fonctionnalités associées, l'utilisateur reconnaît et accepte expressément renoncer à son droit de rétractation. Toutefois, les politiques de remboursement d'Apple et de Google peuvent s'appliquer selon leurs conditions respectives.",
+    en: "In accordance with Article L. 221-28 of the French Consumer Code, the right of withdrawal cannot be exercised for contracts for the supply of digital content not provided on a tangible medium whose performance has begun with the consumer's agreement. By subscribing to the premium plan and beginning to use the associated features, the user acknowledges and expressly agrees to waive their right of withdrawal. However, Apple's and Google's refund policies may apply according to their respective terms."
+  },
+  "cgv.h2.9": { fr: "9. Restauration des achats", en: "9. Purchase Restoration" },
+  "cgv.p.9": {
+    fr: "L'utilisateur peut restaurer ses achats à tout moment depuis l'écran de profil de l'application (bouton \"Restaurer mes achats\"). Cette fonctionnalité permet de récupérer l'accès premium en cas de changement d'appareil ou de réinstallation de l'application.",
+    en: "The user can restore their purchases at any time from the application's profile screen (\"Restore my purchases\" button). This feature allows recovering premium access when changing devices or reinstalling the application."
+  },
+  "cgv.h2.10": { fr: "10. Limitation de responsabilité", en: "10. Limitation of Liability" },
+  "cgv.p.10": {
+    fr: "L'application est fournie \"en l'état\". Nurobix ne garantit pas que le service sera ininterrompu, exempt d'erreurs ou adapté à un usage médical. L'utilisateur est seul responsable de l'interprétation des messages générés par l'IA. Dans les limites autorisées par la loi, Nurobix ne sera pas responsable des dommages directs, indirects, accessoires ou consécutifs résultant de l'utilisation de l'application. L'éditeur de Bear Up ne saurait être tenu responsable d'une utilisation de l'application en dehors du cadre du soutien aux attaques de panique diagnostiquées. Nurobix ne saurait être tenu responsable de l'état de santé d'un utilisateur ou d'un tiers. L'utilisateur garde intacte sa responsabilité de choix et d'action. En tout état de cause, si la responsabilité de l'éditeur devait être engagée, elle serait limitée aux montants effectivement versés par l'utilisateur pour l'utilisation de l'application, soit au maximum le montant de l'abonnement premium en cours.",
+    en: "The application is provided \"as is\". Nurobix does not guarantee that the service will be uninterrupted, error-free, or suitable for medical use. The user is solely responsible for the interpretation of AI-generated messages. To the extent permitted by law, Nurobix shall not be liable for any direct, indirect, incidental, or consequential damages resulting from the use of the application. The publisher of Bear Up cannot be held liable for any use of the application outside the scope of support for diagnosed panic attacks. Nurobix cannot be held responsible for the health condition of any user or third party. The user retains full responsibility for their own choices and actions. In any event, should the publisher's liability be established, it shall be limited to the amounts actually paid by the user for the use of the application, i.e. at most the current premium subscription fee."
+  },
+  "cgv.h2.11": { fr: "11. Données personnelles", en: "11. Personal Data" },
+  "cgv.p.11": {
+    fr: "Le traitement des données personnelles dans le cadre de l'abonnement est décrit dans notre <a href=\"privacy.html\">Politique de confidentialité</a>. Les données relatives à l'abonnement (statut, dates) sont stockées de manière sécurisée. Les données de paiement sont gérées exclusivement par Apple ou Google et ne sont jamais accessibles à Nurobix.",
+    en: "The processing of personal data in the context of the subscription is described in our <a href=\"privacy.html\">Privacy Policy</a>. Subscription data (status, dates) is stored securely. Payment data is managed exclusively by Apple or Google and is never accessible to Nurobix."
+  },
+  "cgv.h2.12": { fr: "12. Droit applicable et litiges", en: "12. Governing Law and Disputes" },
+  "cgv.p.12a": {
+    fr: "Les présentes CGV sont régies par le droit français. En cas de litige, l'utilisateur peut recourir gratuitement à un médiateur de la consommation dans les conditions prévues aux articles L. 611-1 et suivants du Code de la consommation.",
+    en: "These Terms of Sale are governed by French law. In case of dispute, the user may freely use a consumer mediator under the conditions set out in Articles L. 611-1 et seq. of the French Consumer Code."
+  },
+  "cgv.p.12b": {
+    fr: "À défaut de résolution amiable, tout litige sera soumis à la compétence exclusive des tribunaux français.",
+    en: "Failing amicable resolution, any dispute shall be subject to the exclusive jurisdiction of French courts."
+  },
+  "cgv.h2.13": { fr: "13. Contact", en: "13. Contact" },
+  "cgv.p.13": {
+    fr: "Pour toute question relative aux présentes CGV ou à votre abonnement, contactez-nous à :",
+    en: "For any questions regarding these Terms of Sale or your subscription, contact us at:"
+  },
+
+  // ══════════════════════════════════════
   // ── Disclaimer ──
   // ══════════════════════════════════════
   "disclaimer.title": { fr: "Avertissement Légal préalable à l'utilisation de l'application", en: "Legal Disclaimer Prior to Application Use" },
-  "disclaimer.date": { fr: "Dernière mise à jour : 5 mars 2026", en: "Last updated: March 5, 2026" },
+  "disclaimer.date": { fr: "Dernière mise à jour : 24 mars 2026", en: "Last updated: March 24, 2026" },
   "disclaimer.h2.1": { fr: "1. Absence de conseil médical", en: "1. No Medical Advice" },
   "disclaimer.p.1": {
     fr: "Bear Up est un outil de support conversationnel animé par une intelligence artificielle (\"L'Ami Solidaire\") conçu pour accompagner les personnes en crise d'attaque de panique. Cette application n'est pas un dispositif médical, ne délivre aucun diagnostic, avis médical ou traitement et ne remplace en aucun cas l'avis d'un professionnel de santé qualifié (médecin, psychiatre, psychologue). L'utilisation de Bear Up ne constitue pas une consultation médicale et ne doit jamais se substituer à un suivi médical professionnel.",
@@ -458,8 +572,8 @@ const translations = {
   },
   "disclaimer.h2.6": { fr: "6. Limitation de responsabilité", en: "6. Limitation of Liability" },
   "disclaimer.p.6": {
-    fr: "L'application est fournie \"en l'état\". Nurobix ne garantit pas que le service sera ininterrompu, exempt d'erreurs ou adapté à un usage médical. L'utilisateur est seul responsable de l'interprétation des messages générés par l'IA. Dans les limites autorisées par la loi, Nurobix ne sera pas responsable des dommages directs, indirects, accessoires ou consécutifs résultant de l'utilisation de l'application. L'éditeur de Bear Up ne saurait être tenu responsable d'une utilisation de l'application en dehors du cadre du soutien aux attaques de panique diagnostiquées. En tout état de cause, si la responsabilité de l'éditeur devait être engagée, elle serait limitée aux montants effectivement versés par l'utilisateur pour l'utilisation de l'application, soit au maximum le montant de l'abonnement premium en cours.",
-    en: "The application is provided \"as is\". Nurobix does not guarantee that the service will be uninterrupted, error-free, or suitable for medical use. The user is solely responsible for the interpretation of AI-generated messages. To the extent permitted by law, Nurobix shall not be liable for any direct, indirect, incidental, or consequential damages resulting from the use of the application. The publisher of Bear Up cannot be held liable for any use of the application outside the scope of support for diagnosed panic attacks. In any event, should the publisher's liability be established, it shall be limited to the amounts actually paid by the user for the use of the application, i.e. at most the current premium subscription fee."
+    fr: "L'application est fournie \"en l'état\". Nurobix ne garantit pas que le service sera ininterrompu, exempt d'erreurs ou adapté à un usage médical. L'utilisateur est seul responsable de l'interprétation des messages générés par l'IA. Dans les limites autorisées par la loi, Nurobix ne sera pas responsable des dommages directs, indirects, accessoires ou consécutifs résultant de l'utilisation de l'application. L'éditeur de Bear Up ne saurait être tenu responsable d'une utilisation de l'application en dehors du cadre du soutien aux attaques de panique diagnostiquées. Nurobix ne saurait être tenu responsable de l'état de santé d'un utilisateur ou d'un tiers. L'utilisateur garde intacte sa responsabilité de choix et d'action. En tout état de cause, si la responsabilité de l'éditeur devait être engagée, elle serait limitée aux montants effectivement versés par l'utilisateur pour l'utilisation de l'application, soit au maximum le montant de l'abonnement premium en cours.",
+    en: "The application is provided \"as is\". Nurobix does not guarantee that the service will be uninterrupted, error-free, or suitable for medical use. The user is solely responsible for the interpretation of AI-generated messages. To the extent permitted by law, Nurobix shall not be liable for any direct, indirect, incidental, or consequential damages resulting from the use of the application. The publisher of Bear Up cannot be held liable for any use of the application outside the scope of support for diagnosed panic attacks. Nurobix cannot be held responsible for the health condition of any user or third party. The user retains full responsibility for their own choices and actions. In any event, should the publisher's liability be established, it shall be limited to the amounts actually paid by the user for the use of the application, i.e. at most the current premium subscription fee."
   },
 
   // ══════════════════════════════════════
